@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f0fc;
+    color: #1a237e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    padding: 2rem;
+}
+
+button#clickMe {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button#clickMe:hover {
+    background-color: #1565c0;
+}
+
+#message {
+    margin-top: 1rem;
+    color: #0d47a1;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1565c0;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.promo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.promo-gallery img {
+    width: 180px;
+    margin: 6px;
+    border-radius: 8px;
+}
